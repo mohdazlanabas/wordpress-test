@@ -1,0 +1,29 @@
+# WordPress core (don't track - install fresh)
+/wp-admin/
+/wp-includes/
+/wp-*.php
+/index.php
+/license.txt
+/readme.html
+/xmlrpc.php
+
+# Config (contains secrets)
+wp-config.php
+
+# Uploads (too large for git)
+/wp-content/uploads/
+
+# Cache and temp
+/wp-content/cache/
+/wp-content/upgrade/
+/wp-content/backup*/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Keep themes and plugins
+!/wp-content/
+!/wp-content/themes/
+!/wp-content/plugins/
